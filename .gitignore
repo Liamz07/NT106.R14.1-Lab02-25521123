@@ -1,0 +1,47 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+TestResults/
+coverage/
+
+# Visual Studio and IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.rsuser
+
+# NuGet and generated packages
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local application settings and credentials
+**/appsettings*.json
+**/*.secrets.json
+**/secrets.json
+**/connectionstrings.local.json
+**/ConnectionStrings.local.json
+
+# Allow safe example settings to be committed
+!**/appsettings.example.json
+
+# SQL Server local database and backups
+*.mdf
+*.ldf
+*.bak
+*.trn
+*.bacpac
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
